@@ -249,19 +249,19 @@ public class CheckoutController {
     		animateMessage();
     	}
     	else if (cardNumber.getText().trim().isEmpty()) {
-    		errorLabel.setText("The 'Zip/PostCode' field cannot leave blank.");
+    		errorLabel.setText("The 'Card Number' field cannot leave blank.");
     		animateMessage();
     	}
     	else if (nameOnCard.getText().trim().isEmpty()) {
-    		errorLabel.setText("The 'Zip/PostCode' field cannot leave blank.");
+    		errorLabel.setText("The 'Name on Card' field cannot leave blank.");
     		animateMessage();
     	}
     	else if (cardExpiration.getText().trim().isEmpty()) {
-    		errorLabel.setText("The 'Zip/PostCode' field cannot leave blank.");
+    		errorLabel.setText("The 'Expiration' field cannot leave blank.");
     		animateMessage();
     	}
     	else if (cardCVV.getText().trim().isEmpty()) {
-    		errorLabel.setText("The 'Zip/PostCode' field cannot leave blank.");
+    		errorLabel.setText("The 'CVV' field cannot leave blank.");
     		animateMessage();
     	}
     	else {
