@@ -1,0 +1,145 @@
+/* Navigation links */
+.navigation-hyperlink:hover {
+    -fx-underline: false;
+}
+
+.navigation-hyperlink:focuse {
+    -fx-underline: false;
+}
+
+.navigation-hyperlink:active {
+    -fx-underline: false;
+}
+
+.navigation-hyperlink:visited {
+    -fx-underline: false;
+}
+
+/* Account - Logout rules */
+.account_logout:hover {
+    -fx-underline: false;
+    -fx-font-weight: bold;
+}
+
+.account_logout:focuse{
+    -fx-underline: false;
+}
+.account_logout:active {
+    -fx-underline: false;
+}
+.account_logout:visited {
+    -fx-underline: false;
+    -fx-font-size: 14;
+}
+
+/* Logout rules */
+.logout {
+    -fx-border-color: #888;
+    -fx-border-width: 0 0 0 1;
+}
+
+/* Button rules */
+.my-button {
+    -fx-text-fill: white;
+    -fx-background-color: #FF2222;
+    -fx-background-radius: 0;
+    -fx-pref-height: 40;
+	-fx-pref-width: 250;
+}
+
+.my-button:hover {
+    -fx-background-color: #FF4D4D;
+}
+
+.my-cart-button {
+	-fx-underline: false;
+    -fx-background-color: #FF2222;
+}
+
+.my-cart-button:hover {
+	-fx-underline: false;
+    -fx-background-color: #FF4D4D;
+}
+
+.my-cart-button:focuse:active:visited {
+	-fx-underline: false;
+}
+
+/* Update textfield rules */
+.my-details-textfield {
+    -fx-text-fill: #bd282f;
+}
+
+/* ListView Styling*/
+.list-view .list-cell:even {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell:selected{
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+}
+
+/* TableView Styling*/
+.table-row-cell:filled:selected { 
+  -fx-background: -fx-control-inner-background ;
+  -fx-background-color: -fx-table-cell-border-color, -fx-background ;
+  -fx-background-insets: 0, 0 0 1 0 ;
+  -fx-border-color: derive(-fx-color, 5%);
+}
+.table-row-cell:odd:filled:selected {
+  -fx-background: -fx-control-inner-background-alt ;
+}
+.table-row-cell:empty {
+  -fx-background-color: white;
+}
+.table-row-cell:empty .table-cell{
+  -fx-border-width: 0px;
+}
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.my-special-column-style .label {
+  -fx-alignment: CENTER_LEFT;
+}
+
+/* Library tiles */
+.library-tiles {
+    -fx-underline: false;
+    -fx-text-fill: black;
+    -fx-padding: 8;
+}
+
+.library-tiles:hover {
+    -fx-underline: false;
+    -fx-text-fill: white;
+    -fx-background-color: #6ba3ff;
+}
+
+/* View Detail */
+.view_detail:hover {
+    -fx-underline: true;
+}
+
+.view_detail:focuse{
+    -fx-underline: false;
+}
+.view_detail:active {
+    -fx-underline: false;
+}
+.view_detail:visited {
+    -fx-underline: false;
+}
